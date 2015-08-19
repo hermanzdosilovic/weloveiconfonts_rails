@@ -1,8 +1,6 @@
-# weloveiconfonts_rails
+# weloveiconfonts_rails [![Gem Version](https://badge.fury.io/rb/weloveiconfonts_rails.svg)](http://badge.fury.io/rb/weloveiconfonts_rails)
 
-[![Gem Version](https://badge.fury.io/rb/weloveiconfonts_rails.svg)](http://badge.fury.io/rb/weloveiconfonts_rails)
-
-weloveiconfonts_rails uses [WeLoveIconFonts](http://weloveiconfonts.com/) as a Rails engine for use with the asset pipeline.
+`weloveiconfonts_rails` uses [WeLoveIconFonts](http://weloveiconfonts.com/) as a Rails engine for use with the asset pipeline.
 
 ## Installation
 
@@ -90,11 +88,17 @@ More helper methods will be added soon.
 
 ### Example Usage
 
-      <%= iconfont_facebook link: 'https://facebook.com' %>
+Basic usage:
+
+    <%= iconfont_facebook link: 'https://facebook.com' %>
+
+Although some properties are predefined, you can always override them:
+
+    <%= iconfont_facebook link: 'https://facebook.com', background: '#FF0066' %>
 
 ### Writing Your Own Helper Methods
 
-See [examples](https://github.com/hermanzdosilovic/weloveiconfonts_rails/blob/master/app/helpers/we_love_icon_fonts_helper.rb) in this gem.
+[See](https://github.com/hermanzdosilovic/weloveiconfonts_rails/blob/master/app/helpers/we_love_icon_fonts_helper.rb) how helper methods are writen in this gem.
 
 ## Contributing
 
