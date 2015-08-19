@@ -1,6 +1,6 @@
-if defined?(ActionView::Helpers)
+ActiveSupport.on_load(:action_view) do
   require 'we_love_icon_fonts/base'
-  ActionView::Helpers.include(WeLoveIconFonts::Base)
+  include WeLoveIconFonts::Base
 end
 
 if defined?(Rails)

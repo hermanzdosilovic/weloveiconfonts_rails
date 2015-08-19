@@ -81,7 +81,27 @@ There are custom helper methods you can use in your views. Their purpose is to p
 Here is the list of all available helper methods and their default properties:
 
 * `iconfont_facebook`
-    * `background: '#3b5998'`
+    * `background: '#4b70ab'`
+    * `foreground: '#ffffff'`
+
+* `iconfont_linkedin`
+    * `background: '#0087be'`
+    * `foreground: '#ffffff'`
+
+* `iconfont_github`
+    * `background: '#333333'`
+    * `foreground: '#ffffff'`
+
+* `iconfont_bitbucket`
+    * `background: '#205081'`
+    * `foreground: '#ffffff'`
+
+* `iconfont_mail`
+    * `background: '#dd4b39'`
+    * `foreground: '#ffffff'`
+
+* `iconfont_document`
+    * `background: '#fb7629'`
     * `foreground: '#ffffff'`
 
 More helper methods will be added soon.
