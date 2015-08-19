@@ -3,9 +3,11 @@ if defined?(ActionView::Helpers)
   ActionView::Helpers.include(WeLoveIconFonts::Base)
 end
 
-module WeLoveIconFontsRails
-  module Rails
-    class Engine < ::Rails::Engine
+if defined?(Rails)
+  module WeLoveIconFontsRails
+    module Rails
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end
