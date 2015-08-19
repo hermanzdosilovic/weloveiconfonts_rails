@@ -1,0 +1,78 @@
+
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo|fontawesome|fontelico|iconicfill|iconicstroke|maki|openwebicons|typicons|zocial);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* fontelico */
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif;
+}
+
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: 'IconicFill', sans-serif;
+}
+
+/* iconicstroke */
+[class*="iconicstroke-"]:before {
+  font-family: 'IconicStroke', sans-serif;
+}
+
+/* maki */
+[class*="maki-"]:before {
+  font-family: 'maki', sans-serif;
+}
+
+/* openwebicons */
+[class*="openwebicons-"]:before {
+  font-family: 'OpenWeb Icons', sans-serif;
+}
+
+/* typicons */
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.weloveiconfonts__item {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+
+  .weloveiconfonts__icon {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: inherit;
+    height: inherit;
+    font-size: inherit;
+
+    text-decoration: inherit;
+    color: inherit;
+    .weloveiconfonts__content {
+      display: inline-block;
+    }
+  }
+
+  .weloveiconfonts__icon.round {
+    border-radius: 100%;
+  }
+}
