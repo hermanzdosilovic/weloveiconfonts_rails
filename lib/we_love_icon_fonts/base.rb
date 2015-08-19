@@ -2,7 +2,7 @@ module WeLoveIconFonts
   module Base
     def iconfont(icon, options = {})
       @options = option_defaults(options)
-      method = options[:link].empty? ? :create_link : :create_icon
+      method = options[:link].empty? ? :create_icon : :create_link
 
       @input_html = generate_input_html(options[:input_html])
       @html_attributes = generate_html_attributes(options)
@@ -26,7 +26,7 @@ module WeLoveIconFonts
     def option_defaults(options)
       options ||= {}
       options[:link] ||= ''
-      options[:hoverable] = options[:link].empty? if options[:hoverable].nil?
+      options[:hoverable] = !options[:link].empty? if options[:hoverable].nil?
       options[:foreground] ||= '#000000'
       options[:round] ||= false
       options[:shade] ||= :bright
