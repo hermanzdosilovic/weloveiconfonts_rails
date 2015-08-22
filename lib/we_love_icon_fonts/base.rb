@@ -31,7 +31,7 @@ module WeLoveIconFonts
       options[:round] ||= false
       options[:shade] ||= :bright
       options[:size] = 100 if options[:size].nil?
-      options[:font_size] = options[:size] / 2 + 5
+      options[:font_size] = options[:size] / 2 - 5
       options[:input_html] ||= {}
       options
     end
