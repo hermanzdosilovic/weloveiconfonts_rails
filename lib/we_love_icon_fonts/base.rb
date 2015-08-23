@@ -31,7 +31,7 @@ module WeLoveIconFonts
       options[:round] ||= false
       options[:shade] ||= :bright
       options[:size] = 100 if options[:size].nil?
-      options[:font_size] = options[:size] / 2 - 5
+      options[:font_size] = options[:size] / 2 - 7
       options[:input_html] ||= {}
       options
     end
@@ -74,7 +74,7 @@ module WeLoveIconFonts
     def create_icon
       "
       <div #{@input_html} class=\"weloveiconfonts__icon #{@icon_classes}\" #{@html_attributes}>
-        #{send :create_content}
+        #{create_content}
       </div>
       "
     end
@@ -82,7 +82,7 @@ module WeLoveIconFonts
     def create_link
       "
       <a #{@input_html} class=\"weloveiconfonts__icon #{@icon_classes}\" href=\"#{@options[:link]}\" #{@html_attributes}>
-        #{send :create_content}
+        #{create_content}
       </a>
       "
     end

@@ -1,7 +1,7 @@
 Gem::Specification.new do |gem|
   gem.name                  = 'weloveiconfonts_rails'
-  gem.version               = '1.1.0'
-  gem.date                  = '2015-08-19'
+  gem.version               = '1.1.1'
+  gem.date                  = '2015-08-23'
   gem.summary               = 'We Love Icon Fonts'
   gem.description           = 'We must stop here, this is icon fonts country for Rails!'
   gem.authors               = ['Herman Zvonimir Došilović']
